@@ -1,11 +1,5 @@
-function formatData(str, num) {
-    return "".concat(str, ": ").concat(num);
-}
-console.log(formatData("Item", 45)); // Expected output: "Item: 5"
-function reverse(arr) {
-    // Implement the function
-    // Your implementation here
-    return arr.reverse();
-}
-console.log(reverse([1, 2, 3])); // Expected output: [3, 2, 1]
-console.log(reverse(['a', 'b', 'c'])); // Expected output: ['c', 'b', 'a']
+var biruk = function (num1, num2) {
+    var sum = num1 + num2;
+    return sum;
+};
+console.log(biruk(21, 22));
